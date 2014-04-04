@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://varindersingh.github.io/sitemap.xml 
