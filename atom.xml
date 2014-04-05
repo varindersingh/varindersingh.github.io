@@ -1,16 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[My tech Blog]]></title>
   <link href="http://varindersingh.github.io/atom.xml" rel="self"/>
   <link href="http://varindersingh.github.io/"/>
-  <updated>2014-04-04T09:22:09+05:30</updated>
+  <updated>2014-04-06T01:01:19+05:30</updated>
   <id>http://varindersingh.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Varinder Singh]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Test post]]></title>
+    <link href="http://varindersingh.github.io/blog/2014/04/06/first-test-post/"/>
+    <updated>2014-04-06T00:32:23+05:30</updated>
+    <id>http://varindersingh.github.io/blog/2014/04/06/first-test-post</id>
+    <content type="html"><![CDATA[<p>This is first test post
+This is first test post
+This is first test post
+This is first test post This is first test post This is first test post This is first test post
+This is first test post This is first test post This is first test post
+This is first test post This is first test post This is first test post This is first test post This is first test post
+This is first test post This is first test post This is first test post
+This is first test post
+This is first test post This is first test post This is first test post This is first test post
+This is first test post This is first test post This is first test post This is first test post This is first test post
+This is first test post
+This is first test post This is first test post This is first test post This is first test post This is first test post This is first test post
+This is first test post This is first test post This is first test post This is first test post</p>
+
+<p>Including sample Gemfile code</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">source</span> <span class="s2">&quot;https://rubygems.org&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">group</span> <span class="ss">:development</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;rake&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.9&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;jekyll&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.12&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;rdiscount&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 2.0.7&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;pygments.rb&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.3.4&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;RedCloth&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 4.2.9&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;haml&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 3.1.7&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;compass&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.12.2&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;sass&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 3.2&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;sass-globbing&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 1.0.0&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;rubypants&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.2.0&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;rb-fsevent&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 0.9&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;stringex&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 1.4.0&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;liquid&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 2.3.0&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;thin&#39;</span>
+</span><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;directory_watcher&#39;</span><span class="p">,</span> <span class="s1">&#39;1.4.1&#39;</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">gem</span> <span class="s1">&#39;sinatra&#39;</span><span class="p">,</span> <span class="s1">&#39;~&gt; 1.4.2&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
 </feed>
