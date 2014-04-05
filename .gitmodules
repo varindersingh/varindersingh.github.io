@@ -1,0 +1,9 @@
+[submodule ".themes/foxslide"]
+	path = .themes/foxslide
+	url = https://github.com/sevenadrian/foxslide
+[submodule ".themes/MediumFox"]
+	path = .themes/MediumFox
+	url = https://github.com/sevenadrian/MediumFox
+[submodule ".themes/murky-mussels"]
+	path = .themes/murky-mussels
+	url = git://github.com/octothemes/murky-mussels.git
