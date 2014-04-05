@@ -1,0 +1,10 @@
+.sharing {
+  p.meta + & {
+    padding: { top: 1em; left: 0; }
+    #background: $img-border top left repeat-x;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+  }
+}
+
+#fb-root { display: none; }
